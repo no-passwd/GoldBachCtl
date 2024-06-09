@@ -20,6 +20,7 @@
 1. 下载仓库到本地并解压：
 ```
 wget https://github.com/no-passwd/GoldBachCtl/archive/refs/heads/main.zip
+unzip main.zip
 ```
    
 2. 进入项目目录：
