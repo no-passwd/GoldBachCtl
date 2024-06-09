@@ -26,7 +26,7 @@ gcc GoldBachCtl.c -o GoldBachCtl
 ~$ ./GoldBachCtl config
 Please Enter Memory upper limit, the default is: 18446744073709551418: 10000
 Turn on debug mode (foreground running mode)?, default 0, Enter 1 to Enable: 1
-./GoldBachCtl start
+~$ ./GoldBachCtl start
 ```
 
 ### Defaults to background mode
@@ -34,14 +34,12 @@ Turn on debug mode (foreground running mode)?, default 0, Enter 1 to Enable: 1
 ### Limit cpu usage under 20%
 
 ```bash
-cpulimit --limit 20 -- ./GoldBachCtl start
+~$ cpulimit --limit 20 -- ./GoldBachCtl start
 ```
-
-### Simple using
 
 ## Command
 
-Using command operate Goldbach Conjecture Validator, use the following commands with the appropriate argument :
+Using command operate Goldbach Conjecture Validator, use the following commands with argument
 
 **Start:**
 ```bash
