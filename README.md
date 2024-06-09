@@ -24,7 +24,7 @@ gcc GoldBachCtl.c -o GoldBachCtl
 ### Using config(Enable debug)
 ```bash
 ~$ ./GoldBachCtl config
-Please Enter Memory upper limit, the default is: 18446744073709551418: 10000
+Please Enter MaxMum upper limit, the default is: 18446744073709551615: 10000
 Turn on debug mode (foreground running mode)?, default 0, Enter 1 to Enable: 1
 ~$ ./GoldBachCtl start
 ```
